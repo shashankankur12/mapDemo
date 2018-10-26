@@ -148,7 +148,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             LatLng latLng=new LatLng(location.getLatitude(),location.getLongitude());
             MarkerOptions markerOptions=new MarkerOptions();
             markerOptions.position(latLng);
-            markerOptions.title("current postion");
+            markerOptions.title("current poition");
             markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
             currentLocationMarker=mMap.addMarker(markerOptions);
 
